@@ -1,1 +1,7 @@
-<p>card-list works!</p>
+<div>
+  <app-card
+  *ngFor="let card of cards"
+  [img]="card.img"
+  [title]=""
+  [text]="card.paragraph"></app-card>
+</div>

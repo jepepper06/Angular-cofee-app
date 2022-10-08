@@ -2,9 +2,14 @@
   display: flex;
   flex-wrap: wrap;
   .caption-container{
+    text-align: center;
     margin: 0;
     display: flexbox;
     width: 100%;
+    background-color: #eee;
+    h2{
+      margin-top: 1rem;
+    }
   }
 
   img{
@@ -20,6 +25,5 @@
     text-indent: 16px;
     display: inline-block;
     padding: 20px;
-    background-color: #eee;
   }
 }

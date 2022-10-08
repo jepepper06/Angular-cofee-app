@@ -1,15 +1,25 @@
-.img-container{
-  display: block;
-  margin: 0;
-  img{
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  .caption-container{
     margin: 0;
+    display: flexbox;
     width: 100%;
   }
-}
-.text{
-  margin: 0;
-  text-indent: 16px;
-  display: inline-block;
-  padding: 20px;
-  background-color: #eee;
+
+  img{
+    display: flexbox;
+    width: 100%;
+    margin: 0;
+    max-width: 520px;
+  }
+
+  .text{
+    width: 100%;
+    margin: 0;
+    text-indent: 16px;
+    display: inline-block;
+    padding: 20px;
+    background-color: #eee;
+  }
 }

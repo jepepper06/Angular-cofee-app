@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ICard } from 'src/app/models/Card.model';
 
 @Component({
   selector: 'app-card-list',
@@ -9,6 +10,9 @@ export class CardListComponent implements OnInit {
 
   constructor() { }
 
+  cardsContent: ICard[] = [
+
+  ];
   ngOnInit(): void {
   }
 

@@ -12,6 +12,8 @@ export class CardComponent implements OnInit {
   // PROPERTIES
   @Input() text: string = '';
 
+  @Input() title: string = '';
+
   @Input() img: string = '../../assets/images/cafe1.jpg';
 
   ngOnInit(): void {

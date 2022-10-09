@@ -1,29 +1,96 @@
-.card{
-  display: flex;
-  flex-wrap: wrap;
-  .caption-container{
-    text-align: center;
-    margin: 0;
-    display: flexbox;
-    width: 100%;
-    background-color: #eee;
-    h2{
-      margin-top: 1rem;
+
+@media (max-width:519px){
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    .caption-container{
+      text-align: center;
+      margin: 0;
+      width: 100%;
+      background-color: #eee;
+      h2{
+        margin-top: 1rem;
+      }
+    }
+
+    img{
+      width: 100%;
+      margin: 0;
+      max-width: 520px;
+    }
+
+    .text{
+      width: 100%;
+      margin: 0;
+      text-indent: 16px;
+      display: inline-block;
+      padding: 20px;
     }
   }
-
-  img{
-    display: flexbox;
-    width: 100%;
-    margin: 0;
-    max-width: 520px;
-  }
-
-  .text{
-    width: 100%;
-    margin: 0;
-    text-indent: 16px;
-    display: inline-block;
-    padding: 20px;
+}
+@media (min-width:520px) and (max-width:719px) {
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    .caption-container{
+      text-align: center;
+      margin: 0;
+      width: 50%;
+      background-color: #eee;
+      h2{
+        margin-top: 1rem;
+      }
+    }
+    img{
+      width: 50%;
+      margin: 0;
+      max-width: 520px;
+    }
+    .text{
+      width: 100%;
+      margin: 0;
+      text-indent: 16px;
+      display: inline-block;
+      padding: 20px;
+    }
   }
 }
+@media (min-width:720px){
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    .caption-container{
+      text-align: center;
+      margin: 0;
+      width: 50%;
+      background-color: #eee;
+      border-radius: 0 10px 10px 0;
+      h2{
+        margin-top: 1rem;
+      }
+    }
+    img{
+      width: 50%;
+      margin: 0;
+      max-width: 520px;
+      border-radius: 10px 0 0 10px;
+    }
+    .text{
+      width: 100%;
+      margin: 0;
+      text-indent: 16px;
+      display: inline-block;
+      padding: 20px;
+    }
+  }
+}
+
+

@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+  font-family: "Playfair";
+  src: local("Playfair"), url(src\assets\fonts\playfair\PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+}
 *{
   list-style: none;
   box-sizing: border-box;

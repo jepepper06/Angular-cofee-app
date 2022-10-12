@@ -1,3 +1,4 @@
+
 .img-container{
   position: relative;
   z-index: -1;
@@ -5,12 +6,40 @@
   img{
     width: 100%;
   }
+
+}
+h2{
+  margin: 20px;
+}
+@media (max-width:520px){
   h2{
     position: absolute;
     top:65%;
     left: 10%;
     font-weight:900;
     font-size: 20px;
+    color: aliceblue;
+    font-family: 'Playfair';
+  }
+}
+@media (min-width:520px) and (max-width:720px){
+  h2{
+    position: absolute;
+    top:70%;
+    left: 10%;
+    font-weight:900;
+    font-size: 35px;
+    color: aliceblue;
+    font-family: 'Playfair';
+  }
+}
+@media (min-width:720px){
+  h2{
+    position: absolute;
+    top:75%;
+    left: 10%;
+    font-weight:900;
+    font-size: 40px;
     color: aliceblue;
     font-family: 'Playfair';
   }

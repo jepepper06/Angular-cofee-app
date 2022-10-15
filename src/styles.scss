@@ -4,6 +4,10 @@
   font-family: "Playfair";
   src: local("Playfair"), url(src\assets\fonts\playfair\PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Dancing";
+  src: local("Dancing"), url(src\assets\fonts\dancing\DancingScript-VariableFont_wght.ttf) format("truetype");
+}
 *{
   list-style: none;
   box-sizing: border-box;

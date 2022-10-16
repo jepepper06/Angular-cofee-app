@@ -11,11 +11,13 @@
 </header>
 <div class="mobile-menu--sidebar" [class.active]="showSideBar" >
   <span >
-     <ul>
-      <div class="mobile-sidebar--closebutton" (click)="toggleShowSideBar()"><p>X</p></div>
-      <li><a href="#">Opción 1</a></li>
-      <li><a href="#">Opción 2</a></li>
-      <li><a href="#">Opción 3</a></li>
+     <ul (click)="toggleShowSideBar()">
+      <div class="mobile-sidebar--closebutton" ><p>X</p></div>
+      <li><a href="#grano">Desde el Grano</a></li>
+      <li><a href="#verde">El Café Verde</a></li>
+      <li><a href="#tostado">El Tostado</a></li>
+      <li><a href="#molienda">La Molienda</a></li>
+      <li><a href="#taza">La Taza</a></li>
      </ul>
   </span>
 </div>

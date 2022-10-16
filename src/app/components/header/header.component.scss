@@ -5,6 +5,8 @@
   display: block;
   background-color: #9AB79A;
   padding: 1rem;
+  position: sticky;
+  top: -100%;
 }
 .header-menu-button--container{
   display: inline-block;

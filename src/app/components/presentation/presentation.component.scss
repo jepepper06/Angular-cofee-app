@@ -6,6 +6,10 @@
   img{
     width: 100%;
   }
+  .name{
+    font-family: 'Dancing';
+    top: 13%;
+  }
 
 }
 h2{
@@ -14,23 +18,29 @@ h2{
 @media (max-width:520px){
   h2{
     position: absolute;
-    top:65%;
+    bottom: 5%;
     left: 10%;
     font-weight:900;
     font-size: 20px;
     color: aliceblue;
     font-family: 'Playfair';
   }
+  .name{
+    font-size: 30px;
+  }
 }
 @media (min-width:520px) and (max-width:720px){
   h2{
     position: absolute;
-    top:70%;
+    bottom: 7%;
     left: 10%;
     font-weight:900;
     font-size: 35px;
     color: aliceblue;
     font-family: 'Playfair';
+  }
+  .name{
+    font-size: 43px;
   }
 }
 @media (min-width:720px){
@@ -42,5 +52,8 @@ h2{
     font-size: 40px;
     color: aliceblue;
     font-family: 'Playfair';
+  }
+  .name{
+    font-size: 43px;
   }
 }

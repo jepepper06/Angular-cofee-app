@@ -2,9 +2,9 @@
   <div class="card">
     <img [src]="img" alt="">
     <div class="caption-container">
-      <h2>{{ title }}</h2>
+      <h2 [id]="selector()">{{ title }}</h2>
       <div class="text">
-        <p >{{ text }}</p>
+        <p>{{ text }}</p>
       </div>
     </div>
   </div>

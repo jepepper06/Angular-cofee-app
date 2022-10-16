@@ -21,6 +21,28 @@ export class CardComponent implements OnInit {
 
   @Input() img: string = '../../assets/images/cafe2.jpg';
 
+  selector = () => {
+    ;
+    if(this.title == 'Desde el grano'){
+      return 'grano';
+    }
+    if(this.title == 'El Café Verde'){
+      return 'verde';
+    }
+    if(this.title == 'El Tostado'){
+      return 'tostado';
+    }
+    if(this.title == 'La Molienda'){
+      return 'molienda';
+    }
+    if(this.title == 'La Taza'){
+      return 'taza';
+    }if(this.title == undefined ){
+      return
+    }
+    return
+  }
+
   ngOnInit(): void {
   }
 
